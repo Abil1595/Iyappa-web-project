@@ -13,7 +13,7 @@ const initialState = {
   resendOtpLoading: false, // Track loading state for resend OTP
   resendOtpError: null, 
 };
-
+ 
 const authSlice = createSlice({
   name: "auth",
   initialState,
